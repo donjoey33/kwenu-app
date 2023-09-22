@@ -26,9 +26,6 @@ export default function RootLayout({
         >
             <html lang='en'>
                 <body className={`${inter.className} bg-dark-1`}>{children}</body>
-                <div className="w-full flex justify-center items-center min-h-screen">
-                    {children}
-                </div>
             </html>
         </ClerkProvider>
     );
