@@ -7,6 +7,7 @@ interface Props {
     username: string;
     imgUrl: string;
     bio: string;
+    type?: string;
 }
 
 const ProfileHeader = ({ accountId, authUserId, name, username, imgUrl, bio }: Props) => {
